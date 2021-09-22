@@ -4,49 +4,71 @@
 
 body {
   font-family: 'Source Code Pro', monospace !important;
+  margin: 0;
+}
+
+#about {
   background: url(./images/khamkeo-vilaysing-WtwSsqwYlA0-unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 700px;
+}
+
+aside {
+  position: absolute;
+  padding-left: 40px;
 }
 
 ul {
   list-style: none;
-  color: black;
   margin-left: -20px;
+}
+
+.nav-link {
+  color: black !important;
 }
 
 ul > li {
   display: inline-block;
   text-decoration: none;
-  color: black;
 }
-
-/* .about-container {
-  background-image: url(./images/khamkeo-vilaysing-WtwSsqwYlA0-unsplash.jpg);
-} */
 
 .name {
   margin-top: 50px;
 }
 
 .about-me {
-  width: 500px;
+  width: 400px;
+  margin-top: 25px;
 }
 
 .page-break {
   width: 450px;
 }
 
-.apps {
-  margin-top: 200px;
+#apps {
+  margin-top: 100px;
+}
+
+.page-break-2 {
+  width: 450px;
+  margin-top: 30px;
 }
 
 .gram {
-  height: 300px;
+  height: 330px;
   width: 400px;
-  border: 0.5px solid #666;
+  border: 0.5px solid #b6b8ba;
+  margin-bottom: 100px;
+}
+
+.flixter {
+  height: 330px;
+  width: 400px;
+  border: 0.5px solid #b6b8ba;
+  margin-bottom: 100px;
 }
 
 
