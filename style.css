@@ -28,6 +28,7 @@ ul {
 
 .nav-link {
   color: black !important;
+  margin-left: -25px;
 }
 
 ul > li {
@@ -71,6 +72,23 @@ ul > li {
   margin-bottom: 100px;
 }
 
+.todoster {
+  height: 330px;
+  width: 400px;
+  border: 0.5px solid #b6b8ba;
+  margin-bottom: 100px;
+}
+
+.nomster {
+  height: 330px;
+  width: 400px;
+  border: 0.5px solid #b6b8ba;
+  margin-bottom: 100px;
+}
+
+#skills {
+  margin-top: 100px;
+}
 
 
 
