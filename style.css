@@ -7,6 +7,14 @@ body {
   margin: 0;
 }
 
+.name {
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-top: 50px;
+}
+
 #about {
   background: url(./images/khamkeo-vilaysing-WtwSsqwYlA0-unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -29,6 +37,11 @@ ul {
 .nav-link {
   color: black !important;
   margin-left: -25px;
+  margin-right: 30px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
 
 ul > li {
@@ -47,15 +60,21 @@ ul > li {
 
 .page-break {
   width: 450px;
+  margin-bottom: 50x;
 }
 
 #apps {
   margin-top: 100px;
 }
 
+.app-img:hover {
+  border: 2px solid black;
+}
+
 .page-break-2 {
   width: 450px;
   margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .gram {
@@ -86,8 +105,70 @@ ul > li {
   margin-bottom: 100px;
 }
 
+.icons {
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.page-break-3 {
+  width: 450px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
 #skills {
   margin-top: 100px;
+}
+
+.rails {
+  height: 55px;
+  width: 50px;
+}
+
+i {
+  color: black;
+}
+
+.social-icon {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.contact-headline {
+  color: white;
+  margin-left: 50px;
+  padding-top: 50px !important;
+
+}
+
+.white-hr {
+  color: white;
+  width: 450px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+
+.contact-me {
+  background-color: black;
+  margin-bottom: -30px;
+}
+
+.contact-link {
+  color: yellow;
+}
+
+.contact-link:hover {
+  color: yellowgreen;
+}
+
+.contact-info {
+  color: white;
+}
+
+.white {
+  color: white;
 }
 
 
