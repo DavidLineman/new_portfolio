@@ -4,7 +4,6 @@
 
 body {
   font-family: 'Source Code Pro', monospace !important;
-  margin: 0;
 }
 
 .name {
@@ -17,7 +16,7 @@ body {
 
 #about {
   background: url(./images/khamkeo-vilaysing-WtwSsqwYlA0-unsplash.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+  -webkit-background-size: auto;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -38,6 +37,18 @@ ul {
   color: black !important;
   margin-left: -25px;
   margin-right: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-link {
+    text-shadow: 2px 2px white;
+  }
+  .title {
+    text-shadow: 2px 2px white;
+  }
+  .about-me {
+    text-shadow: 2px 2px white;
+  }
 }
 
 .nav-link:hover {
@@ -151,7 +162,7 @@ i {
 }
 
 .contact-me {
-  background-color: black;
+  background: black;
   margin-bottom: -30px;
 }
 
@@ -173,4 +184,9 @@ i {
 
 
 
+/* * {
+  background: #000 !important; 
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
 
